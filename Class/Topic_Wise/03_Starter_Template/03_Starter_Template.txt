@@ -1,0 +1,9 @@
+*) For plain vanilla javascript
+    -> https://www.electronforge.io/
+    -> yarn create electron-app <project_name>
+
+*) For Electron Vue:
+    -> https://github.com/SimulatedGREG/electron-vue
+
+*) For Electron React:
+    -> https://github.com/electron-react-boilerplate/electron-react-boilerplate
