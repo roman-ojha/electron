@@ -1,0 +1,25 @@
+*) What is Electron JS
+    -> Electron is an open-source software framework
+    -> Make cross platform Desktop application with HTML, CSS, JS
+    -> Electron can use React, Angular or Vue for Desktop Apps
+    -> Electron can make windows, macOS, and Linux apps
+
+*) Web apps have drawback-
+    -> Writing conditional code because of browser differences
+    -> Access to file system is also limited.
+    -> Slow network connectivity
+
+*) Why web tech?
+    -> Huge support community
+    -> Cross platform
+
+*) How does electron work?
+    -> This is the combination of chromium + NodeJS
+    -> Chromium for UI Display
+    -> NodeJS with the v8 engine for run time environment
+    -> So it means that code run exact same way on every supported platform
+
+*) Prerequisites
+    -> HTML and CSS
+    -> Javascript
+    -> Node js and npm
