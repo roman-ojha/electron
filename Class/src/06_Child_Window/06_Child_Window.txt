@@ -1,0 +1,5 @@
+*) Child Window in Electron JS
+    -> Child window with Main Process
+    -> New Page from Link
+    -> Open New Page
+    -> Child window with render process

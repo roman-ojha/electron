@@ -4,7 +4,6 @@ const app = electron.app;
 app.disableHardwareAcceleration();
 
 const BrowserWindow = electron.BrowserWindow;
-const path = require("path");
 
 let win1;
 
