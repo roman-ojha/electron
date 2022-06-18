@@ -1,0 +1,2 @@
+-> Menu is the button or nav button that we see at the top of the app at the right and left hand side of app which could include button like 'file', 'edit', 'help'
+-> subMenu is the the menu that we get after we click on the main Menu
