@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/12_Global_Shortcut/main.js",
+    "start": "electron ./src/13_Dialog_Box/main.js",
     "watch": "nodemon --exec yarn start"
   },
   "keywords": [],
