@@ -1,0 +1,2 @@
+*) Global Shortcut
+    -> Global Shortcut means if you application is even minimize then also we can use these shortcut
