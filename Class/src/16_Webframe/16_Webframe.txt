@@ -1,0 +1,3 @@
+*) WebFrame Control the main window content
+*) WebFrame works on render process
+-> https://www.electronjs.org/docs/latest/api/web-frame
