@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/07_Auto_Reload_Main_Process/main.js",
+    "start": "electron ./src/08_App_Life_Cycle_Event/main.js",
     "watch": "nodemon --exec yarn start"
   },
   "keywords": [],

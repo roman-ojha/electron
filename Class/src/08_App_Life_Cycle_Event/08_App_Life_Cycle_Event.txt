@@ -1,0 +1,12 @@
+*) Important App Event Life-Cycle
+    -> https://www.electronjs.org/docs/latest/api/app
+    -> Important Event Name
+        -> ready
+        -> window-all-closed
+        -> before-quit
+        -> will-quit
+        -> quit
+        -> 
+    -> Ready App Event
+    -> Exit App Event
+    -> Focus and blur Event
