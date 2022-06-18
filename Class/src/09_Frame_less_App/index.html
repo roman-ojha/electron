@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <!-- If you want not to be able to select test/image/element from the app then we have to add this style on html file -->
+  <body style="user-select: none">
+    <!-- if we will try to drag window application by clicking on 'Drag' h1 tag then now we will be able to drat application -->
+    <h1 style="-webkit-app-region: drag">Drag</h1>
+
+    <!-- prevent from drag -->
+    <h1 style="-webkit-app-region: no-drag">No-Drag</h1>
+    <script>
+      require("./index.js");
+    </script>
+  </body>
+</html>

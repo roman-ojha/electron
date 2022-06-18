@@ -1,0 +1,8 @@
+*) FrameLess App
+    -> We can make electron app frame less 
+    -> frame less mean we can disable showing upper part(title bar) of the frame like : app icon, app name, minimize button, resize button, close button and etc..
+    -> but there is an issue which is:
+        -> Drag issues
+            -> we would now be able to move/drag application window
+    -> Solve Drag issues:
+        -> on index.html
