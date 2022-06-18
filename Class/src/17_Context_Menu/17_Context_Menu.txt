@@ -1,0 +1,1 @@
+-> Context Menu is the menu that get visible when you right click on the application 
