@@ -1,0 +1,3 @@
+*) WebContents:
+    -> WebContests is a event emitter for render and control output
+    -> https://www.electronjs.org/docs/latest/api/web-contents
