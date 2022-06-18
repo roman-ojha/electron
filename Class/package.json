@@ -4,13 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/06_Child_Window/main.js"
+    "start": "electron ./src/07_Auto_Reload_Main_Process/main.js",
+    "watch": "nodemon --exec yarn start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^19.0.4"
+    "electron": "^19.0.4",
+    "nodemon": "^2.0.16"
   }
 }

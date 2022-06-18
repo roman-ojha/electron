@@ -1,0 +1,10 @@
+*) Auto Reload Main Process
+    -> Install Nodemon and add a new script
+        -> yarn add -D nodemon
+        -> in package.json 
+            ->  "scripts": {
+                    "start": "electron ./src/06_Child_Window/main.js",
+                    "watch": "nodemon --exec yarn start"
+                },
+    -> Reload render process
+        -> on window 'ctrl+r'
