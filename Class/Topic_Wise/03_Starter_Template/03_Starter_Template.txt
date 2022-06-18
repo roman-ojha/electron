@@ -1,6 +1,7 @@
 *) For plain vanilla javascript
     -> https://www.electronforge.io/
     -> yarn create electron-app <project_name>
+    -> npx create-electron-app@latest <project_name>
 
 *) For Electron Vue:
     -> https://github.com/SimulatedGREG/electron-vue

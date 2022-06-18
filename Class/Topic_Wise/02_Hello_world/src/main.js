@@ -21,7 +21,7 @@ function createWindow() {
   //   after a new browser window is created we need to load html file into that browser window
 
   //   to serve as file
-  win.loadFile(path.join(__dirname, "src/index.html"));
+  win.loadFile(path.join(__dirname, "index.html"));
 
   // to serve as URL
   //   win.loadURL(
