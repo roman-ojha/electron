@@ -1,0 +1,2 @@
+-> If you want to store/save the position/height/width of the application window which is called as window state then we have to use package called 'electron-window-state'
+-> https://www.npmjs.com/package/electron-window-state
