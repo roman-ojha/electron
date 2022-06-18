@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/04_Main_and_Render_Process/main.js"
+    "start": "electron ./src/05_Browser_Window_Properties/main.js"
   },
   "keywords": [],
   "author": "",
