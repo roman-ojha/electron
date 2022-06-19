@@ -12,12 +12,21 @@ function createWindow() {
     width: 500,
     // after we make frame false it will like widget
     frame: false,
+    // because when application get start first the application show while screen which is not a good visual effect because of that we have to do this
+    show: false,
+    // we will make browser show false means that we will not show at the first
+    // and only when application get ready we will show the application
+    resizable: false,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
     },
   });
   win.loadFile("index.html");
+  win.on("ready-to-show", () => {
+    // We will show the application when it is ready to show
+    win.show();
+  });
 
   win.on("closed", () => {
     win = null;

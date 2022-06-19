@@ -2,7 +2,15 @@ body {
   background-color: #222233;
   color: #aaccff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 150px;
+  height: 92vh;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  /* border-radius: 5px; */
+  text-align: center;
+  border-radius: 5px;
+  /* to make widget draggable */
+  -webkit-app-region: drag;
+  font-size: 20px;
 }
