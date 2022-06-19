@@ -1,0 +1,1 @@
+-> In this example we will try to create a application widget which will show us as random quote

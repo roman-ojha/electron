@@ -4,14 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/19_Shell_Module/main.js",
+    "start": "electron ./src/20_Quote_Widget/main.js",
     "watch": "nodemon --exec yarn start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron-window-state": "^5.0.3"
+    "electron-window-state": "^5.0.3",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "electron": "^19.0.4",

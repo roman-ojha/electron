@@ -26,12 +26,33 @@ function createWindow() {
   // create menu of tray and show on tray icon right click
   let template = [
     {
-      label: "item 1",
-      // for radio button
-      type: "radio",
+      label: "Audio",
+      submenu: [
+        {
+          label: "low",
+          // for radio button
+          type: "radio",
+          checked: true,
+        },
+        {
+          label: "high",
+          type: "radio",
+        },
+      ],
     },
     {
-      label: "item 2",
+      label: "Video",
+      submenu: [
+        {
+          label: "1280x720",
+          type: "radio",
+          checked: true,
+        },
+        {
+          label: "1920x1080",
+          type: "radio",
+        },
+      ],
     },
   ];
   const contextMenu = Menu.buildFromTemplate(template);
