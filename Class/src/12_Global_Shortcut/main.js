@@ -30,6 +30,11 @@ app.whenReady().then(() => {
   });
 });
 
+// but we have to make sure that when we close the application these shortcut need to be unregistered
+app.on("will-quit", () => {
+  globalShortcut.unregisterAll();
+});
+
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") {
     app.quit();

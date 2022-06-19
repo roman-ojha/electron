@@ -1,0 +1,4 @@
+*) Accelerators:
+    -> In Electron accelerators is a fancy term for keyboard shortcut
+
+NOTE: while creating menu if you are using 'role' you don't have to specify keyboard shortcuts, electron add them for you
