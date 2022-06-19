@@ -1,0 +1,2 @@
+*) Shell Module:
+    -> Shell Module is used to open a folder and a file with in a folder or an external URL in you default browser
