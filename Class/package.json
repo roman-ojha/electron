@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./src/20_Quote_Widget/main.js",
+    "start": "electron ./src/21_IPC/main.js",
     "watch": "nodemon --exec yarn start"
   },
   "keywords": [],

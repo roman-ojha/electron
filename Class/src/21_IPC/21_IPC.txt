@@ -1,0 +1,25 @@
+*) IPC:
+    -> Electron have two process:
+        1) Main Process
+        2) Renderer Process
+    -> And Electron App can have One Main Process and One or more Renderer Process
+    -> Some time Render Process might have to invoke Native desktop API 
+        -> ex: dialog box to display error message
+            -> dialog box to open file, save file etc..
+    -> When the web page or the Browser Window has access to these native apis it is consider dangerous the resources might be leaked
+    -> to handle this electron has the IPC module
+    -> IPC(Inter Process Communication)
+    -> The Communication between main process and the renderer process
+    -> To understand about IPC flow see 'IPC_Flow.png'
+        -> https://youtu.be/rX3axskesDw?list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW&t=62
+    -> In IPC there is two type:
+        1) Asynchronous:
+            -> Asynchronous IPC doesn't block other operations
+        2) Synchronous:
+            -> Synchronous IPC block other operations
+
+*) Remote Module:
+    -> We Learned That to invoke native APIs ipc is required between the main and the renderer process but electron also provide the remote module to make it simple
+    -> With the remote module, you can invoke method of the main process object without explicitly sending interProcessMessages
+    -> But right now It is deprecated:
+        -> https://www.electronjs.org/docs/latest/breaking-changes#deprecated-remote-module
