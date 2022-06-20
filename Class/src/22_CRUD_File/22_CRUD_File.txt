@@ -1,0 +1,4 @@
+-> Here we are using 'photonkit' which is kind of like a CSS framework for electron
+    -> so we will download photonkit 'http://photonkit.com/' and then copy 'photon.min.css' file to the project
+
+-> 
