@@ -2,3 +2,4 @@
     -> This is a node js core module
     -> we can use this on both 'main' and 'renderer' process, but we have to set some properties to be able to use it on renderer process
     -> Form that module we can get information about OS, Process, Chrome , Library
+    -> https://www.electronjs.org/docs/latest/api/process
