@@ -2,8 +2,12 @@ const electron = require("electron");
 const electronReload = require("electron-reload");
 const path = require("path");
 
+const NODE_ENV = process.env.NODE_ENV || "development";
+
 // electronReload(__dirname,{});
-electronReload("../", {});
+if (NODE_ENV === "development") {
+  electronReload("../", {});
+}
 // here now we have to call electron-reload package
 // and we have to tell this package from which directory application have to reload
 
