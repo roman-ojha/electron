@@ -1,0 +1,9 @@
+h1 {
+  color: orange;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

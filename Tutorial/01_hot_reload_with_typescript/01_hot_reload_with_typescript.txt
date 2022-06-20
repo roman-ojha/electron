@@ -1,6 +1,5 @@
 -> yarn add -D concurrently
-    -> concurrently will help to run to peace of compilation concurrently
--> yarn add -D electron
+    -> concurrently will help to run to multiple command at the same time in parallel
 -> yarn add -D electron
 -> yarn add -D tsc
 -> yarn add -D typescript

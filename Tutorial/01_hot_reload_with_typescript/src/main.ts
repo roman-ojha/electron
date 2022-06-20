@@ -1,10 +1,17 @@
 const electron = require("electron");
+const electronReload = require("electron-reload");
+const path = require("path");
+
+// electronReload(__dirname,{});
+electronReload("../", {});
+// here now we have to call electron-reload package
+// and we have to tell this package from which directory application have to reload
 
 const BrowserWindow = electron.BrowserWindow;
 const app = electron.app;
 app.disableHardwareAcceleration();
 
-let win;
+let win: any;
 
 function createWindow() {
   win = new BrowserWindow({
@@ -13,7 +20,7 @@ function createWindow() {
       contextIsolation: false,
     },
   });
-  win.loadFile("index.html");
+  win.loadFile("dist/app/html/index.html");
 
   win.on("closed", () => {
     win = null;

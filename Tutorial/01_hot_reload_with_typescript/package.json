@@ -2,10 +2,9 @@
   "name": "01_hot_reload_with_typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./dist/src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "electron ."
+    "dev": "tsc && concurrently \"tsc -w\" \"electron .\""
   },
   "keywords": [],
   "author": "",
