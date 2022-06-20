@@ -1,0 +1,12 @@
+-> Electron automatically generate it application as per system platform
+-> There is a two type of software we can build
+    1) Executable/Installable
+    2) SDK
+        -> No need to install
+-> yarn add -D electron-builder
+-> on package.json:
+    -> "main": "./src/23_Build/main.js",
+        "scripts": {
+            "build": "electron-builder"
+        },
+-> yarn build

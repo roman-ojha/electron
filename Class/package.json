@@ -2,10 +2,11 @@
   "name": "class",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./src/23_Build/main.js",
   "scripts": {
-    "start": "electron ./src/22_CRUD_File/main.js",
-    "watch": "nodemon --exec yarn start"
+    "start": "electron ./src/23_Build/main.js",
+    "watch": "nodemon --exec yarn start",
+    "build": "electron-builder"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "electron": "^19.0.4",
+    "electron-builder": "^23.0.3",
     "nodemon": "^2.0.16"
   }
 }
