@@ -6,7 +6,7 @@ const NODE_ENV = process.env.NODE_ENV || "development";
 
 // electronReload(__dirname,{});
 if (NODE_ENV === "development") {
-  electronReload("../", {});
+  electronReload("./", {});
 }
 // here now we have to call electron-reload package
 // and we have to tell this package from which directory application have to reload
@@ -24,7 +24,7 @@ function createWindow() {
       contextIsolation: false,
     },
   });
-  win.loadFile("dist/app/html/index.html");
+  win.loadFile("./app/html/index.html");
 
   win.on("closed", () => {
     win = null;
