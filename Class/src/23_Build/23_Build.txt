@@ -10,3 +10,4 @@
             "build": "electron-builder"
         },
 -> yarn build
+-> Note this will build the SDK not Installable

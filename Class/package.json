@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/23_Build/main.js",
   "scripts": {
-    "start": "electron ./src/23_Build/main.js",
+    "start": "electron ./src/24_Shared_API/main.js",
     "watch": "nodemon --exec yarn start",
     "build": "electron-builder"
   },
