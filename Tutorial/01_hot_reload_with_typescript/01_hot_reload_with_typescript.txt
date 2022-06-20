@@ -3,3 +3,11 @@
 -> yarn add -D electron
 -> yarn add -D tsc
 -> yarn add -D typescript
+
+-> In package.json
+    ->  "main": "./dist/src/main.js", 
+            -> run compiled js file
+        "scripts": {
+            "dev": "tsc && concurrently \"tsc -w\" \"electron .\""
+        },
+            -> first need to compile ts file then need to watch file
