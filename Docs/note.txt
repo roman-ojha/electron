@@ -1,0 +1,11 @@
+*) Setup Electron JS by our self
+    -> Install NodeJS
+    -> Make index.html
+    -> Make main.js
+    -> use npm init
+    -> install Electron
+        -> npm install electron --save-dev
+    -> Run Program  
+        ->  "scripts": {
+                "start": "electron ."
+            },
