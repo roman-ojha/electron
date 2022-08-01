@@ -17,6 +17,15 @@
       -> "main": "src/main/main.js",
         "homepage": "./",
     -> yarn electron:serve (to start electron with react)
+  *) For Hot reload main process:
+      -> yarn add -D electron-reloader
+      -> add on main process file:
+        -> if (isDev) {
+              try {
+                require("electron-reloader")(module);
+                // for auto reload main process on change
+              } catch (_) {}
+            }
   
   *) Build App:
       -> yarn add -D electron-builder
