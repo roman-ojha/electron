@@ -1,0 +1,3 @@
+[submodule "Tutorial/03_electron_vue_typescript"]
+	path = Tutorial/03_electron_vue_typescript
+	url = git@github.com:roman-ojha/electron-vue-typescript-starter.git
